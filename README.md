@@ -13,7 +13,7 @@ docker run \
     -e PORT=9870 \
     -p 9870:9870 \
     -e VNC_PASS=TestPass987 \
-    vital987/chrome-novnc:latest
+    tyrola/chrome-novnc:latest
 ```
 
 ## Environment variables: 
@@ -24,3 +24,4 @@ docker run \
 | VNC_RESOLUTION |               VNC Resolution (Default: 1280x720)               |
 |    APP_NAME    |                Name of the app (Heroku specific)               |
 |    NO_SLEEP    | Prevent app from sleeping (Heroku specific, default: disabled) |
+|    CHROME_URL  | Default URL which should be loaded when chrome starts          |
