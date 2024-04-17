@@ -25,3 +25,8 @@ docker run \
 |    APP_NAME    |                Name of the app (Heroku specific)               |
 |    NO_SLEEP    | Prevent app from sleeping (Heroku specific, default: disabled) |
 |    CHROME_URL  | Default URL which should be loaded when chrome starts          |
+
+
+## TODOs:
+
+- Add support for audio playback
